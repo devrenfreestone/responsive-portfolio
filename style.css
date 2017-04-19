@@ -222,16 +222,7 @@ body{
 	.clearfix::after {
     clear: both;
 	}
-	#image1{
-	clear: both;
-	}
-	#image2{
-	clear: both;
-	}
-	#image3{
-	clear: both;
-	}
-	#image4{
+	#image1 #image2 #image3 #image4{
 	clear: both;
 	}
 	#form{
@@ -242,5 +233,83 @@ body{
 	}
 	.input2{
 		width: 275px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	body{
+		width: 600px;
+	}
+	.about{
+		width: 575px;
+	}
+	#about_picture{
+		height: 350;
+		width: 275;
+	}
+	#portfolio_images{
+		text-align: center;
+	}
+	.clearfix::after {
+    clear: both;
+	}
+	#image1 #image2 #image3 #image4{
+	clear: both;
+	}
+	#form{
+		width: 550px;
+	}
+	.input{
+		width: 500px;
+	}
+	.input2{
+		width: 500px;
+	}
+	.sidebar{
+		clear: both;
+		width: 575px;
+		margin-bottom: 20px;
+	}
+	#connect_images{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 640px){
+	body{
+		width: 550px;
+	}
+	.about{
+		width: 525px;
+	}
+	#about_picture{
+		height: 350;
+		width: 275;
+	}
+	#portfolio_images{
+		text-align: center;
+	}
+	.clearfix::after {
+    clear: both;
+	}
+	#image1 #image2 #image3 #image4{
+	clear: both;
+	}
+	#form{
+		width: 525px;
+	}
+	.input{
+		width: 490px;
+	}
+	.input2{
+		width: 490px;
+	}
+	.sidebar{
+		clear: both;
+		width: 525px;
+		margin-bottom: 20px;
+	}
+	#connect_images{
+		text-align: left;
 	}
 }

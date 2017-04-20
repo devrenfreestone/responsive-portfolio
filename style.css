@@ -222,8 +222,9 @@ body{
 	.clearfix::after {
     clear: both;
 	}
-	#image1 #image2 #image3 #image4{
+	#image1, #image2, #image3, #image4{
 	clear: both;
+	float: none;
 	}
 	#form{
 		width: 400px;
@@ -244,17 +245,11 @@ body{
 		width: 575px;
 	}
 	#about_picture{
-		height: 350;
-		width: 275;
+		*height: 350;
+		width: 250;*/
 	}
-	#portfolio_images{
-		text-align: center;
-	}
-	.clearfix::after {
-    clear: both;
-	}
-	#image1 #image2 #image3 #image4{
-	clear: both;
+	.medium{
+		width: 45%
 	}
 	#form{
 		width: 550px;
@@ -286,14 +281,19 @@ body{
 		height: 350;
 		width: 275;
 	}
+	.clearfix::after {
+    clear: both;
+}
 	#portfolio_images{
 		text-align: center;
 	}
-	.clearfix::after {
-    clear: both;
+	#image1, #image2, #image3, #image4{
+		float: none;
+		clear: both;
 	}
-	#image1 #image2 #image3 #image4{
-	clear: both;
+	.portfolio_container{
+		max-width: 274px;
+		text-align: center;
 	}
 	#form{
 		width: 525px;
